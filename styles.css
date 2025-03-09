@@ -1,0 +1,131 @@
+header {
+    background-color: rgba(197, 243, 82, 0.91);
+    padding: 10px ;
+    width:100%;
+    margin: 0;
+    text-align: right;
+    color: rgb(161, 183, 114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    background-color: rgba(42, 46, 2, 0.91);
+    padding: 5px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul 
+{
+    text-align: center;
+    font-size: 1.2rem
+}
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline; /* alligns the text in a straight line */ 
+    padding: 15px; /* expands the space */ 
+    margin: 5px;
+    border: 1px solid rgba(234, 255, 0, 0.91) ;
+    border-radius: 10px; ; /* rounds the boxes */
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centerborderwhite{
+    margin: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border-style: solid; 
+    border-color: rgba(255, 255, 255, 0.91); 
+    width: 450px; 
+    border-width: thick; 
+    border-bottom-width: thick;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+#active 
+{
+    border-style:dotted;
+    border-color: rgb(66, 83, 30);;
+}
+
+body {
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.colourchange {
+    color: #b2b2b2;
+
+}
+
+.maxDiscplay {
+    max-height: 350px;
+    overflow: auto;
+    text-align: justify;
+}
+.imagecows{
+    border-style: dashed; 
+    border-width: thick; 
+    border-bottom-width: thick;
+    width: 50%; 
+    height: 30%;
+}
+
+.imagehens {
+    width:30% ;
+    height:200px ;
+}
+.imagesheep
+{
+    float: left; 
+    width: 30%;
+    border-style: dashed; 
+    border-width: thick; 
+    border-bottom-width: thick
+}
+
+.eepysheepie{
+    float: right; border-style: dashed; border-width: thick; 
+    border-bottom-width: thick;
+    width:30%; 
+    height:250px;
+}
+h2, h3 {
+    color: rgb(161, 183, 114);
+}
+
+.p {
+    background-color: white;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.blackbody 
+{
+    background-color: black;
+    color: white;
+}
+footer {
+    margin :0px;
+    padding: 10px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(42, 46, 2, 0.91);
+    color: white;
+    text-align: center;
+}
